@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rhythm - Music Player</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <img src="images/logo1.png" alt="logo">
+            <h1>Rhythm</h1>
+        </div>
+        <div class="middle">
+            <div class="search-box">
+            <input type="text" placeholder="Search here" />
+            <a href="#"><i class="fa fa-search"></i></a>
+        </div>
+    </div>
+        <a href="#">Songs</a>
+        <a href="#">Podcast</a>
+        <a href="#">Audio Book</a>
+        <div>
+            <a href="#"><i class="fa fa-gear"></i></a>
+            <a href="#"><i class="fa fa-bell"></i></a>
+            <button class="btn">Log in</button>
+            </div>
+    </div>
+
+  </div>
+
+  <!-- MAIN CONTENT AREA -->
+  <div class="main-container">
+    <!-- SIDEBAR -->
+    <aside class="menu">
+      <h2>Playlist</h2>
+      <div class="playlist">
+        <h4><i class="fa fa-music"></i> Playlist</h4>
+        <h4><i class="fa fa-book"></i> Library</h4>
+        <h4><i class="fa fa-clock-o"></i> Recent</h4>
+        <h4><i class="fa fa-heart"></i> Liked</h4>
+      </div>
+
+      <ul class="playlist_song">
+        <!-- Repeatable Song Item -->
+        <li class="songItems">
+          <span>01</span>
+          <img src="images/maxresdefault.jpg" alt="cover" />
+          <div class="song-meta">
+            <h5>Ishq Nachaawe</h5>
+            <div class="subtitle">Rashmeet Kaur</div>
+          </div>
+          <i class="fa fa-play-circle" id="1"></i>
+        </li>
+
+        <li class="songItems">
+          <span>02</span>
+          <img src="images/maxresdefault.jpg" alt="cover" />
+          <div class="song-meta">
+            <h5>Ishq Nachaawe</h5>
+            <div class="subtitle">Rashmeet Kaur</div>
+          </div>
+          <i class="fa fa-play-circle" id="2"></i>
+        </li>
+        <li class="songItems">
+          <span>03</span>
+          <img src="images/maxresdefault.jpg" alt="cover" />
+          <div class="song-meta">
+            <h5>Ishq Nachaawe</h5>
+            <div class="subtitle">Rashmeet Kaur</div>
+          </div>
+          <i class="fa fa-play-circle" id="2"></i>
+        </li>
+      </ul>
+    </aside>
+
+    <!-- MAIN PLAYER / VIEW AREA -->
+<main class="content">
+  <section class="hero">
+    <h2>Good Evening</h2>
+    <div class="featured">
+      <div class="card">
+        <img src="images/maxresdefault.jpg" alt="Playlist">
+        <h4>Chill Beats</h4>
+        <p>Lo-fi · Calm · Study</p>
+      </div>
+      <div class="card">
+        <img src="images/maxresdefault.jpg" alt="Playlist">
+        <h4>Trending Now</h4>
+        <p>Bollywood · Hot Hits</p>
+      </div>
+      <div class="card">
+        <img src="images/maxresdefault.jpg" alt="Playlist">
+        <h4>Late Night Vibes</h4>
+        <p>EDM · Electro Chill</p>
+      </div>
+        <div class="card">
+        <img src="images/maxresdefault.jpg" alt="Playlist">
+        <h4>Recently Played</h4>
+        <p>EDM · Electro Chill</p>
+      </div>
+              <div class="card">
+        <img src="images/maxresdefault.jpg" alt="Playlist">
+        <h4>Top Picsk</h4>
+        <p>EDM · Electro Chill</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="trending">
+    <h3>Top Picks For You</h3>
+    <div class="song-grid">
+      <div class="song-card">
+        <img src="images/maxresdefault.jpg" alt="Song">
+        <h5>Kina Chir</h5>
+        <p>The PropheC</p>
+      </div>
+      <div class="song-card">
+        <img src="images/maxresdefault.jpg" alt="Song">
+        <h5>Ae Dil Hai Mushkil</h5>
+        <p>Arijit Singh</p>
+      </div>
+      <div class="song-card">
+        <img src="images/maxresdefault.jpg" alt="Song">
+        <h5>Let Me Down Slowly</h5>
+        <p>Alec Benjamin</p>
+      </div>
+        <div class="song-card">
+        <img src="images/maxresdefault.jpg" alt="Song">
+        <h5>India's Best</h5>
+        <p>Alec Benjamin</p>
+      </div>
+        <div class="song-card">
+        <img src="images/maxresdefault.jpg" alt="Song">
+        <h5>Sad Songs</h5>
+        <p>Alec Benjamin</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+  </div>
+
+  <!-- BOTTOM MUSIC PLAYER -->
+  <footer class="music-player">
+    <div class="current-song-info">
+      <img src="images/maxresdefault.jpg" alt="song" />
+      <div>
+        <h4>Ishq Nachaawe</h4>
+        <p>Rashmeet Kaur</p>
+      </div>
+    </div>
+
+    <div class="controls">
+      <i class="fa fa-random"></i>
+      <i class="fa fa-step-backward"></i>
+      <i class="fa fa-play-circle play-btn"></i>
+      <i class="fa fa-step-forward"></i>
+      <i class="fa fa-repeat"></i>
+    </div>
+
+    <div class="volume">
+      <i class="fa fa-volume-up"></i>
+      <input type="range" min="0" max="100" value="50"/>
+    </div>
+  </footer>
+</body>
+</html>
