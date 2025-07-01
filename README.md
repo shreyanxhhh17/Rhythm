@@ -35,8 +35,8 @@ This is a **static frontend design** built using **HTML and CSS only** — no Ja
 ---
 
 ## 📂 Folder Structure
-->Images
-->index.html
-->style.css
+1. Images
+2. index.html
+3. style.css
 
 
