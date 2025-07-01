@@ -7,7 +7,7 @@ This is a **static frontend design** built using **HTML and CSS only** — no Ja
 
 ## 📸 Preview
 
-![Rhythm UI Preview](images/logo1.png)
+![Rhythm UI Preview](images/RhythmApp.png)
 
 ---
 
